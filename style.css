@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(36, 42, 46);
+
+}
+
+table {
+  width: 70vh;
+  height: 70vh;
+  border: 3px solid black;
+  background-color: cornflowerblue;
+}
+td {
+  width: 10%;
+  height: 10%;
+  background-color: brown;
+}
+img {
+  width: 5vh;
+  height: vh;
+}
+
+#validate {
+  height: 4vh;
+  width: 20vw;
+  background: rgb(235, 230, 224);
+  color: black;
+  transition: 0.2s;
+  font-weight: 600;
+  border: unset;
+  margin-top: 2vh;
+}
+
+#validate:hover {
+  background-color: cornflowerblue;
+  color: rgb(235, 230, 224);
+}
+
+
